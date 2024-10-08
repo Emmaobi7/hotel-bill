@@ -1,0 +1,86 @@
+
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background-color: #4A90E2;
+    color: white;
+}
+
+.main-content {
+    margin-left: 220px; /* Leave space for sidebar */
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px;
+    margin: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
