@@ -6,7 +6,12 @@ export default function Attendance() {
   const [employees, setEmployees] = useState([
     { id: 1, name: 'John Doe', present: false },
     { id: 2, name: 'Jane Smith', present: false },
-    { id: 3, name: 'Alex Brown', present: false },
+    { id: 3, name: 'Umar Sani', present: false },
+    { id: 4, name: 'Marta Zainab', present: false },
+    { id: 5, name: 'Aisha Yususf', present: false },
+    { id: 6, name: 'Mary Mara', present: false },
+    { id: 7, name: 'Anne Bary', present: false },
+
   ]);
   const [attendanceMarked, setAttendanceMarked] = useState(false);
 

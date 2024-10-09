@@ -1,5 +1,5 @@
 .attendance-container {
-    background-color: #f8f9fa;
+    
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
@@ -23,7 +23,7 @@
   }
   
   .employee-item {
-    background-color: #fff;
+    background-color: #1E3E62;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -47,7 +47,7 @@
   }
   
   .attendance-summary {
-    background-color: #ffffff;
+    
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;

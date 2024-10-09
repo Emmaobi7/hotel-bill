@@ -1,6 +1,6 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,8 +12,14 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  width: 100vw;
+ 
+}
+
+@media (max-width: 1500px) {
+  html, body {
+    width: 110vw;
+  }
 }
 
 body {
